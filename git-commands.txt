@@ -1,0 +1,15 @@
+git init --> Intialize the git repository
+git add <DIR/FILE name> --> add files/dir's to staging area
+git commit -m "message" --> save the files in staging area
+git log --> to view all commit messages
+git reset <commit id> --> to go back to the previous commit
+git stash --> to make the changes invisible in the form of commits
+git stash pop --> pull the changes to local from stash area
+git stash clear --> clear all files from stash area
+git restore <file> --> to restore the deleted files before commit
+git remote add origin <git_repo_url> --> add git repo url to the workspace
+git remote -v --> shows attached repos of the workspace
+git push origin <branch_name> --> to push the code to git
+git fetch --all --prune --> to fetch all changes from upstream
+git reset --hard upstream/main --> reset upstream main branch
+git pull upstream main --> pull code from upstream main branch
