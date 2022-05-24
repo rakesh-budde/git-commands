@@ -13,3 +13,4 @@ git push origin <branch_name> --> to push the code to git
 git fetch --all --prune --> to fetch all changes from upstream
 git reset --hard upstream/main --> reset upstream main branch
 git pull upstream main --> pull code from upstream main branch
+git rebase -i <commit_id> --> used to merge multiple commits into single commit
